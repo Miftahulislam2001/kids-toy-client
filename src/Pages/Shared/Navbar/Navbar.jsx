@@ -20,11 +20,11 @@ const NavBer = () => {
     // }
 
     return (
-        <nav className='flex max-w-[1240px] mx-auto justify-between items-center my-3 shadow'>
+        <nav className='flex max-w-[1240px] mx-auto justify-between items-center m-3 shadow py-5'>
             <div className='flex gap-2 items-center'>
                 {/* <Link to='/'><img className='w-14 h-14 rounded-md' src={logo} alt="" /></Link> */}
                 <div>
-                    <Link to='/'><h1 className='text-2xl italic font-bold'>Girl<span className='text-[#FFB6C6]'>Toys</span></h1></Link>
+                    <Link to='/'><h1 className='text-3xl italic font-bold'>Girl<span className='text-[#FFB6C6]'>Toys</span></h1></Link>
                 </div>
             </div>
             <span className='md:hidden'>

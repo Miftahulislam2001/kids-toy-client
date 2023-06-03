@@ -53,10 +53,12 @@ const Login = () => {
 
     return (
         <main className='container grid md:grid-cols-2 px-3 mt-10'>
-            <img className='w-[300px] mx-auto' src="https://cdni.iconscout.com/illustration/premium/thumb/admin-login-5146573-4297423.png" alt="" />
+            <div className='flex items-center bg-red-50 m-5 rounded'>
+            <img className='w-[300px] mx-auto text-center mt-7' src="https://cdni.iconscout.com/illustration/premium/thumb/admin-login-5146573-4297423.png" alt="" />
+            </div>
             <div className='max-w-[1240px] w-full mx-auto mt-10  '>
-                <h1 className='text-center text-5xl font-bold'>Please <span className='text-[#B2A4FF]'>Login</span></h1>
-                <div className=' text-center py-5 bg-slate-200 rounded md:w-[500px] mx-auto my-5'>
+                <h1 className='text-center text-5xl font-bold'>Please <span className='text-[#FFB6C6]'>Login</span></h1>
+                <div className=' text-center py-5 bg-[#f1dfe3] rounded md:w-[500px] mx-auto my-5'>
                     <form onSubmit={handleLogin}>
                         <input className='w-[80%] py-2 my-5 rounded outline-none px-4 ' type="email" name="email" placeholder='    enter your email' required />
 
@@ -70,7 +72,7 @@ const Login = () => {
                         </div>
 
                         <p className='text-[#B2A4FF] underline mt-5'><Link>Forget Password</Link></p>
-                        <button className='w-[80%]  bg-[#B2A4FF] hover:bg-[#AA77FF] mx-auto rounded py-2 my-5 text-white font-semibold flex items-center justify-center'>Login <span><CiLogin className='w-8 h-8 ' /></span> </button>
+                        <button className='w-[80%]  bg-[#FFB6C6] hover:bg-[#AA77FF] mx-auto rounded py-2 my-5 text-white font-semibold flex items-center justify-center'>Login <span><CiLogin className='w-8 h-8 ' /></span> </button>
 
                         <p className='text-red-600 text-lg'>{error}</p>
 
