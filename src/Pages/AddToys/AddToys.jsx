@@ -60,12 +60,12 @@ const AddAToys = () => {
     return (
         <main className='container px-3'>
             <hr className="w-full my-3" />
-            <form onSubmit={addNewToy} className="container py-5" >
+            <form onSubmit={addNewToy} className="container py-5 mx-5 px-3" >
                 <div className="text-center my-10">
-                    <h2 className="text-3xl underline font-bold">Add New <span className='text-[#B2A4FF]'>Toy</span></h2>
+                    <h2 className="text-3xl underline font-bold">Add <span className='text-[#FFB6C6]'>New Toy</span></h2>
                 </div>
 
-                <section className="md:grid md:grid-cols-2 gap-3 w-full">
+                <section className="md:grid md:grid-cols-2 gap-2 shadow-md w-full">
 
                     <div className="w-full my-2">
                         <span className="block font-bold">Toy Image</span>
@@ -107,7 +107,7 @@ const AddAToys = () => {
                 </section>
 
                 <div >
-                    <button className="px-4 bg-[#B2A4FF] hover:bg-[#AA77FF] block mt-10 py-3 rounded text-white w-full" type="submit">Add Toy</button>
+                    <button className="px-4 bg-[#FFB6C6]  block mt-10 py-3 rounded text-white w-full" type="submit">Add Toy</button>
                 </div>
 
             </form>
