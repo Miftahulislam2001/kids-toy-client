@@ -16,125 +16,161 @@
     {
         
         "_id ":"2",
-        "photo_url":"https://m.media-amazon.com/images/I/91obCJ4YTTL._AC_SX679_.jpg",
-        "name":"American Girl WellieWishers",
-        "seller_name":"Abtahi",
-        "seller_email":"Abtahi@gmail.com",
+        "photo_url":"https://m.media-amazon.com/images/I/61+55yvCrDL._AC_SX569_.jpg",
+        "name":"Madame Alexander ",
+        "seller_name":"sohan",
+        "seller_email":"sohan@gmail.com",
         "sub_category":"American Doll toy",
-        "price": "25",
-        "rating":"4.5",
-        "quantity":"2",
-        "description":"A tent with a shooting-star print that is roomy enough for two WellieWishers dolls pink satin pillow to rest their head  working flashlight that dolls can hold"
+        "price": "45",
+        "rating":"1.5",
+        "quantity":"22",
+        "description":"Huggums: These classic 12 inch baby dolls are perfect for tiny hands; Made with soft bodies meant to be hugged, these dolls are recommended for ages 2 plus; This adorable dolly will become your baby’s baby"
 
     },
     {
         
         "_id ":"3",
-        "photo_url":"https://m.media-amazon.com/images/I/91obCJ4YTTL._AC_SX679_.jpg",
-        "name":"American Girl WellieWishers",
-        "seller_name":"Abtahi",
-        "seller_email":"Abtahi@gmail.com",
+        "photo_url":"https://m.media-amazon.com/images/I/71HrjZi435L._AC_SY879_.jpg",
+        "name":"American Girl Truly",
+        "seller_name":"miftahull",
+        "seller_email":"miftahull@gmail.com",
         "sub_category":"American Doll toy",
-        "price": "25",
-        "rating":"4.5",
-        "quantity":"2",
-        "description":"A tent with a shooting-star print that is roomy enough for two WellieWishers dolls pink satin pillow to rest their head  working flashlight that dolls can hold"
+        "price": "55",
+        "rating":"3.5",
+        "quantity":"24",
+        "description":"A Movable Head And Limbs Made Of Smooth Viny A Heathered-Gray T-Shirt With Printed Graphics; Camo-Print Shorts; A Pair Of Briefs; And A Pair Of White High-Top Sneakers The All About Us Journal"
 
     },
     {
         
         "_id ":"4",
-        "photo_url":"https://m.media-amazon.com/images/I/91obCJ4YTTL._AC_SX679_.jpg",
-        "name":"American Girl WellieWishers",
-        "seller_name":"Abtahi",
-        "seller_email":"Abtahi@gmail.com",
+        "photo_url":"https://m.media-amazon.com/images/I/51pOAuO4qIL._AC_SX569_.jpg",
+        "name":"Joovy Toy Caboose Baby ",
+        "seller_name":"mm mamun",
+        "seller_email":"mamun@gmail.com",
         "sub_category":"American Doll toy",
-        "price": "25",
-        "rating":"4.5",
-        "quantity":"2",
-        "description":"A tent with a shooting-star print that is roomy enough for two WellieWishers dolls pink satin pillow to rest their head  working flashlight that dolls can hold"
+        "price": "60",
+        "rating":"5.5",
+        "quantity":"27",
+        "description":"HOLDS THREE DOLLS so no one gets left behind INCLUDES CAR SET ADAPTER for the Joovy Car Seat EASY-TO-PUSH SWIVEL WHEELS make this toy stroller easy to push, even for tiny humans"
 
     },
+
+
+
+
     {
         
         "_id ":"5",
-        "photo_url":"https://m.media-amazon.com/images/I/91obCJ4YTTL._AC_SX679_.jpg",
-        "name":"American Girl WellieWishers",
-        "seller_name":"Abtahi",
-        "seller_email":"Abtahi@gmail.com",
+        "photo_url":"https://m.media-amazon.com/images/I/61pEj-1uNOL._AC_SY879_.jpg",
+        "name":"Barbie Careers Doll & Playset",
+        "seller_name":"As sayed",
+        "seller_email":"sayed@gmail.com",
         "sub_category":"Barbie Doll toy",
-        "price": "25",
-        "rating":"4.5",
-        "quantity":"2",
-        "description":"A tent with a shooting-star print that is roomy enough for two WellieWishers dolls pink satin pillow to rest their head  working flashlight that dolls can hold"
+        "price": "61",
+        "rating":"6.5",
+        "quantity":"30",
+        "description":"Explore a world of creative play and storytelling fun with the Barbie Baby Doctor Playset! Makes a great gift for kids 3 years old and up, especially those interested in medicine and caretaking! Doll cannot stand alone."
 
     },
     {
         
         "_id ":"6",
-        "photo_url":"https://m.media-amazon.com/images/I/91obCJ4YTTL._AC_SX679_.jpg",
-        "name":"American Girl WellieWishers",
-        "seller_name":"Abtahi",
-        "seller_email":"Abtahi@gmail.com",
+        "photo_url":"https://m.media-amazon.com/images/I/71VNVqThlcL._AC_SX569_.jpg",
+        "name":"Barbie Careers Brunette Dentist",
+        "seller_name":"Bashar",
+        "seller_email":"bashar@gmail.com",
         "sub_category":"Barbie Doll toy",
-        "price": "25",
-        "rating":"4.5",
-        "quantity":"2",
-        "description":"A tent with a shooting-star print that is roomy enough for two WellieWishers dolls pink satin pillow to rest their head  working flashlight that dolls can hold"
+        "price": "65",
+        "rating":"5.5",
+        "quantity":"35",
+        "description":"Dressed in her white coat, Barbie Dentist doll is ready to take care of her adorable toddler patient. Kids can role-play as both doctor and patient for storytelling fun! The doll and accessory set makes a great gift for kids 3 years and older, especially those who dream of being in the medical field."
 
     },
     {
         
         "_id ":"7",
-        "photo_url":"https://m.media-amazon.com/images/I/81h4N3-H9kL._AC_SX679_.jpg",
-        "name":"Barbie The Movie Doll",
-        "seller_name":"Sohan",
-        "seller_email":"Sohan@gmail.com",
+        "photo_url":"https://m.media-amazon.com/images/I/71jLfBGEgLL._AC_SX569_.jpg",
+        "name":"Barbie Skipper Babysitters ",
+        "seller_name":"Asif",
+        "seller_email":"asif@gmail.com",
         "sub_category":"Barbie Doll toy",
-        "price": "45",
-        "rating":"2.5",
-        "quantity":"15",
-        "description":"Take home a part of Barbie The Movie with a radiant President Barbie collector doll in a beautiful dress.Barbie doll wears a full, satiny gown that features a sparkly off-shoulder bodice and shimmery gold accents that trail down her skirt."
+        "price": "50",
+        "rating":"6.5",
+        "quantity":"40",
+        "description":"Play out classic babysitting moments with Barbie Skipper Babysitters Inc. dolls and playsets!This Skipper Babysitters Inc. playset features Skipper babysitter doll, a baby doll and a stroller that bounces up and down as it's pushed Inspire nurturing play and realistic storytelling with accessories."
 
     },
     {
         
-        "_id ":"4",
-        "photo_url":"https://m.media-amazon.com/images/I/61zFECxDt4L._AC_SX679_.jpg",
-        "name":"Melissa & Doug Mine",
-        "seller_name":"Anik",
-        "seller_email":"Anik@gmail.com",
-        "sub_category":"Baby Doll toy",
-        "price": "35",
-        "rating":"3.5",
-        "quantity":"20",
-        "description":"Sweet baby cheeks and soft, cuddly body inspire kids for hours of pretend playWipe-clean arms and legs Removable smocked romper and matching cap"
-    }
+        "_id ":"8",
+        "photo_url":"https://m.media-amazon.com/images/I/71ED1lqyexS._AC_SL1500_.jpg",
+        "name":" Skipper Babysitters ",
+        "seller_name":"jshaif",
+        "seller_email":"jashif@gmail.com",
+        "sub_category":"Barbie Doll toy",
+        "price": "55",
+        "rating":"5.5",
+        "quantity":"42",
+        "description":"Fill the pink whale-shaped squirt toy with ice-cold water and spray to activate the color change or cool off Skipper doll, too! Skipper babysitter doll wears a swimsuit with trendy tropical print, cover-up and sunglasses. A colorful floatie and two drinks add additional inspiration for storytelling, plus plug-and-play design holds them in place for playtime action and easy cleanup."
+
+    },
+
+
+
+
+
     {
         
-        "_id ":"4",
-        "photo_url":"https://m.media-amazon.com/images/I/61zFECxDt4L._AC_SX679_.jpg",
-        "name":"Melissa & Doug Mine",
-        "seller_name":"Anik",
-        "seller_email":"Anik@gmail.com",
+        "_id ":"9",
+        "photo_url":"https://m.media-amazon.com/images/I/81JBYu8o6PL._AC_SX569_.jpg",
+        "name":"Realistic Soft Body Baby Doll ",
+        "seller_name":"Rahat",
+        "seller_email":"rahat@gmail.com",
         "sub_category":"Baby Doll toy",
-        "price": "35",
-        "rating":"3.5",
-        "quantity":"20",
+        "price": "60",
+        "rating":"4.5",
+        "quantity":"30",
         "description":"Sweet baby cheeks and soft, cuddly body inspire kids for hours of pretend playWipe-clean arms and legs Removable smocked romper and matching cap"
-    }
+    },
     {
         
-        "_id ":"4",
-        "photo_url":"https://m.media-amazon.com/images/I/61zFECxDt4L._AC_SX679_.jpg",
-        "name":"Melissa & Doug Mine",
-        "seller_name":"Anik",
-        "seller_email":"Anik@gmail.com",
+        "_id ":"10",
+        "photo_url":"https://m.media-amazon.com/images/I/51apIMpY0JL._AC_SL1026_.jpg",
+        "name":"Adora My Cuddle & Coo Baby",
+        "seller_name":"Adora",
+        "seller_email":"adora@gmail.com",
         "sub_category":"Baby Doll toy",
-        "price": "35",
-        "rating":"3.5",
-        "quantity":"20",
-        "description":"Sweet baby cheeks and soft, cuddly body inspire kids for hours of pretend playWipe-clean arms and legs Removable smocked romper and matching cap"
+        "price": "80",
+        "rating":"7.5",
+        "quantity":"15",
+        "description":"Reacts to play: Squeeze her hand and she’ll cry. Pat her head to hear her coo. Tickle her tummy to hear sweet giggles. Kiss her cheek and she’ll kiss you back. Pat her head and she’ll call you Momma Realistic baby doll with lifelike baby powder fresh scent, cuddly body, silky hair, open/close eyes Nurturing play: Dress baby in her removable outfit and perfectly packaged for a gift"
+    },
+    {
+        
+        "_id ":"11",
+        "photo_url":"https://m.media-amazon.com/images/I/61zFECxDt4L._AC_SL1500_.jpg",
+        "name":"Melissa & Doug Mine to Love Jenna",
+        "seller_name":"Malissa",
+        "seller_email":"malissa@gmail.com",
+        "sub_category":"Baby Doll toy",
+        "price": "45",
+        "rating":"6.5",
+        "quantity":"40",
+        "description":"Sweet baby cheeks and soft, cuddly body inspire kids for hours of pretend play Wipe-clean arms and legs Removable smocked romper and matching cap Eyes open and close, and able to suck thumb or pacifier"
+    },
+    {
+        
+        "_id ":"12",
+        "photo_url":"https://m.media-amazon.com/images/I/812geEiys0L._AC_SX569_.jpg",
+        "name":"Creative Minds Basket of Babies ",
+        "seller_name":"Sifa",
+        "seller_email":"sifa@gmail.com",
+        "sub_category":"Baby Doll toy",
+        "price": "65",
+        "rating":"7.5",
+        "quantity":"38",
+        "description":"DIVERSE BABY DOLLS: A set of 6 multicultural dolls in a soft fabric carry baby doll basket; these social emotional toys have different cultural and ethnic features to teach children about diversity and inclusion ENGAGING DOLL ACCESSORIES: Each baby doll features a permanent cloth hat as well as removable plush onesies so children can learn coordination while changing their plush dolls outfits"
     }
 ]
 
