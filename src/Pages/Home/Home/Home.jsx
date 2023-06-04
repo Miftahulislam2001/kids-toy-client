@@ -1,3 +1,4 @@
+import Tabss from "../../../Components/Tabss";
 import Banner from "../Banner/Banner";
 import Brand from "../Brand/Brand";
 import Gallery from "../Gallery/Gallery";
@@ -6,9 +7,10 @@ import Gallery from "../Gallery/Gallery";
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
-            <Brand></Brand>
+            <Banner></Banner> 
             <Gallery></Gallery>
+            <Tabss></Tabss>
+            <Brand></Brand>
         </div>
     );
 };

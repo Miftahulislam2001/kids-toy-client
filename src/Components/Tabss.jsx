@@ -1,22 +1,23 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { toast } from 'react-toastify';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { Link } from "react-router-dom";
 import { Rating } from "@smastrom/react-rating";
-import { useAuthGlobally } from "../context/AuthProvide";
+import { useAuthGlobally } from "../Context/AuthProvider";
+
 
 const Tabss = () => {
     const { user } = useAuthGlobally();
 
     const [tabIndex, setTabIndex] = useState(2);
-    const [subCategory, setSubCategory] = useState("coc_toys");
+    const [subCategory, setSubCategory] = useState("Baby_Doll_toy");
     const [tab, setTab] = useState([])
 
 
 
     useEffect(() => {
-        fetch(`https://game-frenzy.vercel.app/tabs?sub_category=${subCategory}`)
+        fetch(`https://girls-toys.vercel.app/tabs?sub_category=${subCategory}`)
             .then(res => res.json())
             .then(data => setTab(data))
     }, [subCategory])
@@ -35,14 +36,14 @@ const Tabss = () => {
 
     return (
         <Tabs
-            className="max-w-[1240px] mx-auto text-center "
+            className="max-w-[1240px] mx-auto text-center"
             selectedIndex={tabIndex}
             onSelect={(index) => setTabIndex(index)}
         >
             <TabList>
-                <Tab onClick={() => handleSubCategory("Pubg_toys")}>PUBG</Tab>
-                <Tab onClick={() => handleSubCategory("minecraft_toys")}>Minecraft</Tab>
-                <Tab onClick={() => handleSubCategory("coc_toys")}>Cash Of clan</Tab>
+                <Tab onClick={() => handleSubCategory("American_Doll_toy")}>American Doll toy</Tab>
+                <Tab onClick={() => handleSubCategory("Barbie_Doll_toy")}>Barbie Doll toy</Tab>
+                <Tab onClick={() => handleSubCategory("Baby_Doll_toy")}>Baby Doll toy</Tab>
             </TabList>
             <TabPanel>
                 <div className="grid md:grid-cols-3 gap-10 mt-10 p-4">
@@ -96,7 +97,7 @@ const Tabss = () => {
                 </div>
             </TabPanel>
 
-        </Tabss>
+        </Tabs>
     );
 };
 export default Tabss;
