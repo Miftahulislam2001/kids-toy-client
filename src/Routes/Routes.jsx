@@ -8,6 +8,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Login from "../Pages/LogIn/LogIn";
 import Register from "../Pages/LogIn/Register";
 import ViewDetails from "../Components/ViewDetails";
+import EditToy from "../Components/EditToy";
 
 const router = createBrowserRouter([
     {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
         {
             path:'/view-details/:id',
             element: <ViewDetails></ViewDetails>
+        },
+        {
+            path: '/edit/:id',
+            element: <EditToy></EditToy>
         },
       
       ]
