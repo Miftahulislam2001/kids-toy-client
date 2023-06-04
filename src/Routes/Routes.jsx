@@ -7,6 +7,7 @@ import AddToys from "../Pages/AddToys/AddToys";
 import Blogs from "../Pages/Blogs/Blogs";
 import Login from "../Pages/LogIn/LogIn";
 import Register from "../Pages/LogIn/Register";
+import ViewDetails from "../Components/ViewDetails";
 
 const router = createBrowserRouter([
     {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         {
             path:'/register',
             element: <Register></Register>
+        },
+        {
+            path:'/view-details/:id',
+            element: <ViewDetails></ViewDetails>
         },
       
       ]
