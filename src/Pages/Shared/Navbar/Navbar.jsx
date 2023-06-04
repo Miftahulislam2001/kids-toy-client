@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { HiMenuAlt1 } from 'react-icons/hi';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { useAuthGlobally } from '../../../Context/AuthProvider';
+import { toast } from 'react-toastify';
 // import logo from '../../assets/logo/logo.png'
 
 
@@ -11,13 +12,13 @@ const NavBer = () => {
      const { user, logOut } = useAuthGlobally();
 
     const [toggle, setToggle] = useState(false);
-    // const handelTost = () => {
+    const handelTost = () => {
 
-    //     if (!user) {
-    //         toast("You Have To Login First To View Details");
+        if (!user) {
+            toast("You Have To Login First To View Details");
 
-    //     }
-    // }
+        }
+    }
 
     return (
         <nav className='flex max-w-[1240px] mx-auto justify-between items-center m-3 shadow py-5'>
@@ -47,7 +48,7 @@ const NavBer = () => {
                 </li>
 
                 <li>{
-                    user ? <button onClick={logOut} className="bg-[#FFB6C6]   px-4 py-2 rounded-md  text-white">LogOut</button> : <button className="bg-[#FFB6C6] text-lg font-bold hover:bg-[#95B3E0] px-4 py-2 rounded-md text-white"><Link to="/login">Login</Link></button>
+                    user ? <button onClick={logOut} className="bg-[#FFB6C6]   px-4 py-2 rounded-md  text-white">LogOut</button> : <button className="bg-[#FFB6C6] text-lg font-bold  px-4 py-2 rounded-md text-white"><Link to="/login">Login</Link></button>
                 }
                 </li>
             </ul>

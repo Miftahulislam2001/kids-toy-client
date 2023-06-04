@@ -76,7 +76,7 @@ const EditToy = () => {
             <hr className="w-full my-3" />
             <form onSubmit={updateToy} className=" py-5" >
                 <div className="text-center my-10">
-                    <h2 className="text-3xl underline font-bold">Edit <span className='text-[#B2A4FF]'>Toy</span></h2>
+                    <h2 className="text-3xl underline font-bold">Edit <span className='text-[#FFB6C6]'>Toy</span></h2>
                 </div>
 
                 <section className="md:grid md:grid-cols-2 gap-3 w-full">

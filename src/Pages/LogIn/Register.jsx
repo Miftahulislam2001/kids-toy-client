@@ -62,7 +62,7 @@ const Register = () => {
                     <p className='text-red-600 text-lg'>{error}</p>
                     <p className='text-green-600 text-lg'>{success}</p>
 
-                    <button className='w-[80%] bg-[#FFB6C6] hover:bg-[#AA77FF] mx-auto rounded py-2 my-5 text-white font-semibold' >Register</button>
+                    <button className='w-[80%] bg-[#FFB6C6] mx-auto rounded py-2 my-5 text-white font-semibold' >Register</button>
                     <div>
                         Already have a account?
                         <Link to="/login" className="px-2 font-semibold py-1 ml-2 text-[#563ee3] underline rounded">Login</Link>

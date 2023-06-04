@@ -16,7 +16,7 @@ const SingleToy = ({ singleToy }) => {
             <td>{price}</td>
             <td>{quantity}</td>
             <td>
-                <Link to={`/view-details/${_id}`}><button className='px-5 py-3 bg-[#B2A4FF] hover:bg-[#AA77FF] rounded-md text-white'>View Details</button></Link>
+                <Link to={`/view-details/${_id}`}><button className='px-5 py-3 bg-[#FFB6C6] font-bold rounded-md text-white'>View Details</button></Link>
             </td>
         </tr>
 

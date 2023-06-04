@@ -72,7 +72,7 @@ const Login = () => {
                         </div>
 
                         <p className='text-[#B2A4FF] underline mt-5'><Link>Forget Password</Link></p>
-                        <button className='w-[80%]  bg-[#FFB6C6] hover:bg-[#AA77FF] mx-auto rounded py-2 my-5 text-white font-semibold flex items-center justify-center'>Login <span><CiLogin className='w-8 h-8 ' /></span> </button>
+                        <button className='w-[80%]  bg-[#FFB6C6]  mx-auto rounded py-2 my-5 text-white font-semibold flex items-center justify-center'>Login <span><CiLogin className='w-8 h-8 ' /></span> </button>
 
                         <p className='text-red-600 text-lg'>{error}</p>
 

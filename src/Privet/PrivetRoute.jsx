@@ -1,6 +1,7 @@
 
 import { Navigate, useLocation } from 'react-router-dom';
 import { useAuthGlobally } from '../Context/AuthProvider';
+import Loader from '../Components/Loader';
 
 
 

@@ -74,7 +74,7 @@ const Tabss = () => {
                                     <span>{tab.rating}</span> <Rating style={{ maxWidth: 120 }} value={tab.rating} readOnly />
                                 </div>
                             </div>
-                            <button onClick={handelTost} className="bg-[#B2A4FF] hover:bg-[#AA77FF] my-4 mb-6 px-6 py-2 rounded text-white"><Link to={`/view-details/${tab._id}`}>View Details</Link></button>
+                            <button onClick={handelTost} className="bg-[#FFB6C6] hover:bg-[#AA77FF] my-4 mb-6 px-6 py-2 rounded text-white"><Link to={`/view-details/${tab._id}`}>View Details</Link></button>
                         </div></>)
                     }
                 </div>
@@ -91,7 +91,7 @@ const Tabss = () => {
                                     <span>{tab.rating}</span> <Rating style={{ maxWidth: 120 }} value={tab.rating} readOnly />
                                 </div>
                             </div>
-                            <button onClick={handelTost} className="bg-[#B2A4FF] hover:bg-[#AA77FF] my-4 mb-6 px-6 py-2 rounded text-white"><Link to={`/view-details/${tab._id}`}>View Details</Link></button>
+                            <button onClick={handelTost} className="bg-[#FFB6C6]  my-4 mb-6 px-6 py-2 rounded text-white"><Link to={`/view-details/${tab._id}`}>View Details</Link></button>
                         </div></>)
                     }
                 </div>
