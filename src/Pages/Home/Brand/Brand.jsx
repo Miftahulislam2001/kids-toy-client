@@ -2,7 +2,7 @@
 
 const Brand = () => {
     return (
-        <div className="md:h-52 flex justify-around items-center shadow">
+        <div className="md:h-52 grid md:grid-cols-6 justify-center gap-10 items-center shadow mx-3">
              {/* <h1 className="font-bold text-4xl text-center ">Our <span className="text-[#FFB6C6] underline">Brand</span></h1> */}
 
             
