@@ -3,11 +3,11 @@
 
 # This is my project (Girls Toys)
 
-- Hosted in FireBase -> [Girls Toys](https://games-frenzy.web.app/)
+- Hosted in FireBase -> [Girls Toys](https://girls-toys.web.app/)
 
 
 
-- Gallery Dolls Toys 
+- Girls Dolls Toys 
 
 
 ## technologies (frameworks, libraries) 

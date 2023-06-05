@@ -12,7 +12,7 @@ const Banner = () => {
                 <h3 className='text-3xl text-orange-500 font-bold'>New Arrivals</h3>
                 <h1 className="text-5xl font-extrabold font-serif">Best Dolls Toys Store & Online Shope</h1>
                 <p className="py-6">The Best Online Dolls Toys Shop , but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. </p>
-                <button className="btn btn-[#FAA3B3] hover:bg-[#95B3E0] font-extrabold rounded-2xl p-3 w-40 h-14">Explore Now</button>
+                <button className="btn btn-[#FAA3B3] hover:bg-[#f4c1ca] font-extrabold rounded-2xl p-3 w-40 h-14">Explore Now</button>
             </div>
         </div>
     </div>

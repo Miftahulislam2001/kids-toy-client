@@ -46,7 +46,7 @@ const Tabss = () => {
                 <Tab onClick={() => handleSubCategory("Baby_Doll_toy")}>Baby Doll toy</Tab>
             </TabList>
             <TabPanel>
-                <div className="grid md:grid-cols-3 gap-10 mt-10 p-4">
+                <div data-aos="zoom-in" className="grid md:grid-cols-3 gap-10 mt-10 p-4">
                     {
                         tab.map((tab) => <><div  key={tab._id} className="border rounded-md shadow ">
                             <img className=" mx-auto h-96 object-cover rounded-md border p-5" src={tab.photo_url} alt="" />
@@ -63,7 +63,7 @@ const Tabss = () => {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div className="grid md:grid-cols-3 gap-4 mt-10 p-4">
+                <div data-aos="zoom-in" className="grid md:grid-cols-3 gap-4 mt-10 p-4">
                     {
                         tab.map((tab) => <><div  key={tab._id} className="border rounded-md shadow">
                             <img className="mx-auto h-96 object-cover rounded-md border p-5" src={tab.photo_url} alt="" />
@@ -80,7 +80,7 @@ const Tabss = () => {
                 </div>
             </TabPanel>
             <TabPanel>
-                <div className="grid md:grid-cols-3 gap-4 mt-10">
+                <div data-aos="zoom-in" className="grid md:grid-cols-3 gap-4 mt-10">
                     {
                         tab.map((tab) => <><div  key={tab._id} className="border rounded-md shadow">
                             <img className="mx-auto h-96 object-cover rounded-md border p-5" src={tab.photo_url} alt="" />

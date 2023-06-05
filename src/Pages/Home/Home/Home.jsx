@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Brand from "../Brand/Brand";
 import Collectioins from "../Collectioins/Collectioins";
 import Gallery from "../Gallery/Gallery";
+import Services from "../Services/Services";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Gallery></Gallery>
             <Tabss></Tabss> 
             <Collectioins></Collectioins>
+            <Services></Services>
             
         </div>
     );
