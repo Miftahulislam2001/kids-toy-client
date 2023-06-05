@@ -23,7 +23,7 @@ const NavBer = () => {
     return (
         <nav className='flex max-w-[1240px] mx-auto justify-between items-center m-3 shadow py-5'>
             <div className='flex gap-2 items-center mx-3'>
-                {/* <Link to='/'><img className='w-14 h-14 rounded-md' src={logo} alt="" /></Link> */}
+                <Link to='/'><img className='w-14 h-14 rounded-3xl border border-red-300' src="https://previews.123rf.com/images/lumitar/lumitar1604/lumitar160400005/55700019-babyish-emblem-with-a-doll-girl-s-toys-pastel-color-palette-pink-pale-pink-blue-flat.jpg" alt="" /></Link>
                 <div>
                     <Link to='/'><h1 className='text-3xl italic font-bold'>Girl<span className='text-[#FFB6C6]'>Toys</span></h1></Link>
                 </div>
