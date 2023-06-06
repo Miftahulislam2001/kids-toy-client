@@ -10,11 +10,13 @@ import Register from "../Pages/LogIn/Register";
 import ViewDetails from "../Components/ViewDetails";
 import EditToy from "../Components/EditToy";
 import PrivateRouter from "../Privet/PrivetRoute";
+import Error from "../Components/Error";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Main></Main>,
+        errorElement:<Error></Error>,
         children: [
             {
                 path: '/',

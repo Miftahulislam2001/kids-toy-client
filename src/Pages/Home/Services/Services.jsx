@@ -13,7 +13,7 @@ const Services = () => {
             <div className="md:h-48 grid md:grid-cols-4 justify-center gap-14 items-center text-center">
 
                 <div className="flex gap-3">
-                    <div><img className="w-20 h-16" src="https://img.freepik.com/premium-vector/bubble-chat-talk-with-wrench-logo-design-vector-graphic-symbol-icon-illustration-creative-idea_15473-12903.jpg" alt="" /></div>
+                    <div><img className="w-20 h-16" src="/service/car.png" alt="" /></div>
                     <div>
                         <h2 className="uppercase text-xl text-left">Shipping Services</h2>
                         <h5 className="text-left">Fast Shipping</h5>
