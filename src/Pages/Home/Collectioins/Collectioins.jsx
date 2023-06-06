@@ -1,3 +1,4 @@
+import { Rating } from "@smastrom/react-rating";
 
 
 
@@ -11,16 +12,15 @@ const Collectioins = () => {
 
 
 
-            <div className="grid md:grid-cols-3 gap-3 items-center justify-center my-12 max-w-[1240px] mx-auto">
+            <div className="grid md:grid-cols-3 gap-3 items-center justify-center my-12 max-w-[1240px] mx-auto text-center">
 
                 <div data-aos="zoom-in" className="product-card bg-white rounded-lg shadow-lg p-4 w-72">
                     <img src="https://m.media-amazon.com/images/I/61+55yvCrDL._AC_UL600_FMwebp_QL65_.jpg" alt="" className="product-image rounded-md mb-4 h-72" />
                     <h3 className="product-title text-xl font-semibold mb-2 text-center">Top Rated</h3>
                     <p className="product-rating text-gray-600 text-center"> American doll toy</p>
                     <p className="product-rating text-gray-600 text-center">Rating: 5.0</p>
-                    <p className="text-center mb-4">
+                    <Rating className="mx-auto mb-4" style={{ maxWidth: 100 }} value="5" readOnly></Rating>
 
-                    </p>
                     <button className="product-button bg-red-300 hover:bg-red-200 font-semibold text-white py-2 px-4 rounded-full shadow-md text-center w-full">
                         Add to Cart
                     </button>
@@ -31,6 +31,8 @@ const Collectioins = () => {
                     <h3 className="product-title text-xl font-semibold mb-2 text-center">Top Rated</h3>
                     <p className="product-rating text-gray-600 text-center"> American doll toy</p>
                     <p className="product-rating text-gray-600 text-center mb-4">Rating: 4.7</p>
+                    
+                    <Rating className="mx-auto mb-4" style={{ maxWidth: 100 }} value="4.5" readOnly></Rating>
                     <button className="product-button bg-red-300 hover:bg-red-200 font-semibold text-white py-2 px-4 rounded-full shadow-md text-center w-full">
                         Add to Cart
                     </button>
@@ -41,6 +43,7 @@ const Collectioins = () => {
                     <h3 className="product-title text-xl font-semibold mb-2 text-center">Top Rated</h3>
                     <p className="product-rating text-gray-600 text-center"> Barbie Doll toy</p>
                     <p className="product-rating text-gray-600 text-center mb-4">Rating: 4.5</p>
+                    <Rating className="mx-auto mb-4" style={{ maxWidth: 100 }} value="4.5" readOnly></Rating>
                     <button className="product-button bg-red-300 hover:bg-red-200 font-semibold text-white py-2 px-4 rounded-full shadow-md text-center w-full">
                         Add to Cart
                     </button>
@@ -51,6 +54,7 @@ const Collectioins = () => {
                     <h3 className="product-title text-xl font-semibold mb-2 text-center">Top Rated</h3>
                     <p className="product-rating text-gray-600 text-center"> Baby doll toy</p>
                     <p className="product-rating text-gray-600 text-center mb-4">Rating: 4.0</p>
+                    <Rating className="mx-auto mb-4" style={{ maxWidth: 100 }} value="4" readOnly></Rating>
                     <button className="product-button bg-red-300 hover:bg-red-200 font-semibold text-white py-2 px-4 rounded-full shadow-md text-center w-full">
                         Add to Cart
                     </button>
@@ -61,6 +65,7 @@ const Collectioins = () => {
                     <h3 className="product-title text-xl font-semibold mb-2 text-center">Top Rated</h3>
                     <p className="product-rating text-gray-600 text-center"> Barbie doll toy</p>
                     <p className="product-rating text-gray-600 text-center mb-4">Rating: 4.9</p>
+                    <Rating className="mx-auto mb-4" style={{ maxWidth: 100 }} value="4.5" readOnly></Rating>
                     <button className="product-button bg-red-300 hover:bg-red-200 font-semibold text-white py-2 px-4 rounded-full shadow-md text-center w-full">
                         Add to Cart
                     </button>
@@ -71,6 +76,7 @@ const Collectioins = () => {
                     <h3 className="product-title text-xl font-semibold mb-2 text-center">Top Rated</h3>
                     <p className="product-rating text-gray-600 text-center"> Baby doll toy</p>
                     <p className="product-rating text-gray-600 text-center mb-4">Rating: 4.4</p>
+                    <Rating className="mx-auto mb-4" style={{ maxWidth: 100 }} value="4" readOnly></Rating>
                     <button className="product-button bg-red-300 hover:bg-red-200 font-semibold text-white py-2 px-4 rounded-full shadow-md text-center w-full">
                         Add to Cart
                     </button>
